@@ -21,12 +21,15 @@
   "version": "0.0.0",
   "description": "Basic Begin personal website",
   "scripts": {
-    "start": "npx sandbox"
+    "start": "npx sandbox",
+    "pretest": "eslint --ignore-path .gitignore ."
   },
   "devDependencies": {
     "@architect/architect": "^8.4.10",
     "@architect/sandbox": "",
-    "@begin/data": "^1.2.3"
+    "@begin/data": "^1.2.3",
+    "eslint": "^7.23.0",
+    "eslint-config-strongloop": "^2.1.0"
   },
   "dependencies": {
     "@architect/functions": "^3.13.9"
